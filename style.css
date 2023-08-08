@@ -30,6 +30,7 @@ p {
 
 .menu ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
   margin: 2rem;
@@ -43,6 +44,7 @@ p {
   border-radius: 4px;
   text-transform: uppercase;
 }
+
 
 .menu a:hover {
   border-color: #ffbb00;
@@ -150,3 +152,6 @@ p {
   font-size: 2rem;
 }
 
+@media (max-width: 380px){
+  
+}
